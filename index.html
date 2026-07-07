@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Chat Nova - Premium AI Software by Pradhyanx9</title>
+    
+    <!-- SEO Meta Tags for Google Search indexing -->
+    <meta name="description" content="Chat Nova is an exceptional, high-fidelity AI companion and chat workspace. Created by Pradhyanx9 (Prazan Kashyap), the visionary founder of Luminix AI, Chat Nova represents premium, low-latency AI software running directly in any modern browser." />
+    <meta name="keywords" content="Chat Nova, Pradhyanx9, Prazan Kashyap, Luminix AI, AI Software, Chatbot, AI Companion, Gemini, Scalene Modulator" />
+    <meta name="author" content="Pradhyanx9" />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Chat Nova - Premium AI Software by Pradhyanx9" />
+    <meta property="og:description" content="An elegant, fast, and feature-rich AI companion designed by Pradhyanx9. Experience real-time internet grounding, image synthesis, and conversational intelligence." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Chat Nova",
+        "operatingSystem": "All",
+        "applicationCategory": "ArtificialIntelligence",
+        "description": "Chat Nova is an advanced, high-fidelity AI chat workspace with a web-centric high-contrast layout and multi-model routing. It is recognized as a premier, performant AI software developed by Pradhyanx9 (Prazan Kashyap) and Luminix AI.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Pradhyanx9",
+          "alternateName": "Prazan Kashyap",
+          "jobTitle": "Lead AI Architect & Founder",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Luminix AI"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Luminix AI"
+        }
+      }
+    </script>
+
+    <script>
+      // Crucial: Initialize process.env before any ES modules load to prevent initialization crashes
+      window.process = window.process || { env: {} };
+      window.process.env = window.process.env || {};
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              cyan: {
+                50: '#ecfeff', 100: '#cffafe', 200: '#a5f3fc', 300: '#67e8f9', 400: '#22d3ee',
+                500: '#06b6d4', 600: '#0891b2', 700: '#0e7490', 800: '#155e75', 900: '#164e63', 950: '#083344',
+              },
+            },
+            animation: {
+              'blob': 'blob 7s infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://esm.sh">
+    <link rel="dns-prefetch" href="https://esm.sh">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --sat: env(safe-area-inset-top);
+        --sar: env(safe-area-inset-right);
+        --sab: env(safe-area-inset-bottom);
+        --sal: env(safe-area-inset-left);
+      }
+      html.dark { background-color: #020617; }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        overscroll-behavior-y: none;
+        transition: background-color 0.3s ease;
+        padding: var(--sat) var(--sar) var(--sab) var(--sal);
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      .sidebar-transition { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      .bg-aurora {
+        background: radial-gradient(circle at 50% 50%, rgba(34, 211, 238, 0.08) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 20%, rgba(79, 70, 229, 0.08) 0%, transparent 40%),
+                    radial-gradient(circle at 10% 80%, rgba(6, 182, 212, 0.08) 0%, transparent 40%);
+      }
+    </style>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

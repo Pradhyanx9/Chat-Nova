@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/schema-capabilities.json",
+  "identifier": "default-capabilities",
+  "description": "Default capabilities for Chat Nova Android App",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "shell:default",
+    "http:default"
+  ]
+}

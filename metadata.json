@@ -1,0 +1,21 @@
+{
+  "name": "Chat Nova",
+  "short_name": "Nova",
+  "description": "Next-generation AI companion by Luminix AI, designed and developed by Prazan Kashyap and Scalene Modulator.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1698/1698535.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#06b6d4",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
